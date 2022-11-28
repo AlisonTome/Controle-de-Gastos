@@ -1,20 +1,19 @@
-import React, { useState } from "react"; 
+import React from "react"; 
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-import Header from "./Header";
+import './global.css';
+
+import Login from "./pages/login";
 
 function App() {
-  const [counter, setCounter] = useState(0);
-
-  function add() {
-    setCounter(counter + 1)   
-  }
-  
   return (
-    <div>
-    <Header>Contador: {counter}</Header>
-    <button onClick={add}>Adicionar</button>
-    </div>
+    <Router>
+       <Routes>
+          <Route path='/' element={< Login />} />
+        </Routes>
+    </Router>
   );
 }
+
 
 export default App;
