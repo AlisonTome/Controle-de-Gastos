@@ -1,0 +1,55 @@
+.new-spending {
+    width: 100%;
+    max-width: 1120;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-spending .content {
+    width: 60%;
+    padding: 96px;
+    background: white;
+    box-shadow: 0 0 100px rgba(68, 62, 134, 0.2);
+    border-radius: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-spending .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.new-spending .content section h1 {
+    margin: 64px 0 16px;
+    font-size: 32px;
+}
+
+.new-spending .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.new-spending .content form {
+    width: 100%;
+    max-width: 450px;
+}
+
+.new-spending .content form input {
+    margin-top: 8px
+}
+
+.login-register {
+    width: 95%;
+    height: 0 auto;
+    margin: 0 auto;
+
+    display: flex;
+}

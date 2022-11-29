@@ -1,0 +1,63 @@
+.register-page {
+    width: 100%;
+    max-width: 1120;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-page .content {
+    width: 60%;
+    padding: 96px;
+    background: white;
+    box-shadow: 0 0 100px rgba(68, 62, 134, 0.2);
+    border-radius: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-page .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-page .content section h1 {
+    margin: 64px 0 16px;
+    font-size: 32px;
+}
+
+.register-page .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.register-page .content form {
+    width: 100%;
+    max-width: 450px;
+}
+
+.register-page .content form input {
+    margin-top: 8px
+}
+
+.register-page .content form .input-group {
+    display: flex;
+}
+
+.register-page .content form .input-group input + input {
+    margin-left: 8px;
+}
+
+.login-register {
+    width: 95%;
+    height: 0 auto;
+    margin: 0 auto;
+
+    display: flex;
+}

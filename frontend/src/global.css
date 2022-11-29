@@ -26,16 +26,16 @@ form input {
     height: 60px;
     color: #333;
     border: 1px solid #dcdce6 ;
-    border-radius: 8px;
+    border-radius: 18px;
     padding: 0 24px;
 }
 
 .button {
     width: 100%;
     height: 60px;
-    background: #e02041;
+    background: #443e86;
     border: 0;
-    border-radius: 8px;
+    border-radius: 18px;
     color: white;
     font-weight: 700;
     margin-top: 16px;
@@ -49,4 +49,28 @@ form input {
 
 .button:hover {
     filter: brightness(90%);
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.img-back-link {
+    margin-right: 8px;
+    transition: opacity 0.2s;
+}
+
+.back-link:hover{
+    opacity: 0.8;
+}
+
+.img-back-link:hover {
+    opacity: 0.8;
 }
