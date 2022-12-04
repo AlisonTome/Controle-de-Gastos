@@ -10,8 +10,8 @@ module.exports = {
 
         const casos = await conexão('casos')
             .join('empresa', 'empresa.id', '=', 'casos.id_empresa')
-            .limit(5)
-            .offset((page - 1) * 5)
+            .limit(6)
+            .offset((page - 1) * 6)
             .select(['casos.*',
                 'empresa.nome',
                 'empresa.email',

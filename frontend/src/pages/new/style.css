@@ -1,4 +1,4 @@
-.new-spending {
+.new-spending-page {
     width: 100%;
     max-width: 1120;
     height: 100vh;
@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-.new-spending .content {
+.new-spending-page .content {
     width: 60%;
     padding: 96px;
     background: white;
@@ -21,29 +21,33 @@
     align-items: center;
 }
 
-.new-spending .content section {
+.new-spending-page .content section {
     width: 100%;
     max-width: 380px;
 }
 
-.new-spending .content section h1 {
+.new-spending-page .content section h1 {
     margin: 64px 0 16px;
     font-size: 32px;
 }
 
-.new-spending .content section p {
+.new-spending-page .content section p {
     font-size: 18px;
     color: #737380;
     line-height: 32px;
 }
 
-.new-spending .content form {
+.new-spending-page .content form {
     width: 100%;
     max-width: 450px;
 }
 
-.new-spending .content form input {
+.new-spending-page .content form input {
     margin-top: 8px
+}
+
+.new-spending-page .content form textarea {
+    margin-top: 12px
 }
 
 .login-register {
