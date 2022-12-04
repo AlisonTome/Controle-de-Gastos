@@ -11,7 +11,7 @@ export default function Login() {
     return (
         <div className="login-page">
             <section className="form">
-                <img src={ login } alt="login" className="Controle de Gastos" />
+                <img src={ login } alt="controle-de-gastos" className="login" />
 
                 <form>
                     <h1>Faça seu login</h1>
