@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useActionData } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FiLogIn } from 'react-icons/fi';
 
 import api from "../../services/api";
@@ -11,14 +11,20 @@ import login from "../../assets/login.jpeg";
 
 export default function Login() {
     const [id, setId] = useState('');
+    const navigate = useNavigate();
 
-    async function HandleLogin() {
+    async function HandleLogin(e) {
         e.preventDefault();
 
         try {
-            const response = await api.post()
-        } catch (err) {
+            const response = await api.post('login', { id });
 
+            localStorage.setItem('empresa_id', id)
+            localStorage.setItem('empresa_nome', response.data.nome)
+
+            navigate('/profile');
+        } catch (err) {
+            alert('Falha no login, tente novamente')
         }
     }
 
